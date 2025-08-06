@@ -6,7 +6,7 @@ import { env } from "@/lib/env";
  * @returns The farcaster manifest for the frame
  */
 export async function getFarcasterManifest() {
-  let frameName = "Mini-app Starter";
+  let frameName = "Farcaster Calculator";
   let noindex = false;
   const appUrl = env.NEXT_PUBLIC_URL;
   if (appUrl.includes("localhost")) {
@@ -31,18 +31,18 @@ export async function getFarcasterManifest() {
       iconUrl: `${appUrl}/images/icon.png`,
       homeUrl: appUrl,
       imageUrl: `${appUrl}/images/feed.png`,
-      buttonTitle: `Launch App`,
+      buttonTitle: `Launch Calculator`,
       splashImageUrl: `${appUrl}/images/splash.png`,
       splashBackgroundColor: "#FFFFFF",
       webhookUrl: `${appUrl}/api/webhook`,
       // Metadata https://github.com/farcasterxyz/miniapps/discussions/191
-      subtitle: "Starter kit for mini-apps", // 30 characters, no emojis or special characters, short description under app name
-      description: "Starter kit for mini-apps", // 170 characters, no emojis or special characters, promotional message displayed on Mini App Page
-      primaryCategory: "social",
-      tags: ["mini-app", "starter"], // up to 5 tags, filtering/search tags
-      tagline: "Starter kit for mini-apps", // 30 characters, marketing tagline should be punchy and descriptive
+      subtitle: "Simple calculator for Farcaster", // 30 characters, no emojis or special characters, short description under app name
+      description: "A beautiful and functional calculator mini-app for Farcaster users to perform basic arithmetic operations with ease.", // 170 characters, no emojis or special characters, promotional message displayed on Mini App Page
+      primaryCategory: "utility",
+      tags: ["calculator", "math", "utility", "mini-app"], // up to 5 tags, filtering/search tags
+      tagline: "Calculate with ease on Farcaster", // 30 characters, marketing tagline should be punchy and descriptive
       ogTitle: `${frameName}`, // 30 characters, app name + short tag, Title case, no emojis
-      ogDescription: "Starter kit for Farcastermini-apps", // 100 characters, summarize core benefits in 1-2 lines
+      ogDescription: "A simple calculator mini-app for Farcaster with basic arithmetic operations.", // 100 characters, summarize core benefits in 1-2 lines
       screenshotUrls: [
         // 1284 x 2778, visual previews of the app, max 3 screenshots
         `${appUrl}/images/feed.png`,

@@ -8,10 +8,10 @@ const frame = {
   version: "next",
   imageUrl: `${appUrl}/images/feed.png`,
   button: {
-    title: "Launch App",
+    title: "Launch Calculator",
     action: {
       type: "launch_frame",
-      name: "Mini-app Starter",
+      name: "Farcaster Calculator",
       url: appUrl,
       splashImageUrl: `${appUrl}/images/splash.png`,
       splashBackgroundColor: "#ffffff",
@@ -21,10 +21,11 @@ const frame = {
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "Mini-app Starter",
+    title: "Farcaster Calculator",
+    description: "A simple calculator mini-app for Farcaster",
     openGraph: {
-      title: "Mini-app Starter",
-      description: "A starter for Farcastermini-apps",
+      title: "Farcaster Calculator",
+      description: "A simple calculator mini-app for Farcaster",
     },
     other: {
       "fc:frame": JSON.stringify(frame),

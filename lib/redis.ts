@@ -7,10 +7,17 @@ if (!env.REDIS_URL || !env.REDIS_TOKEN) {
   );
 }
 
-export const redis =
-  env.REDIS_URL && env.REDIS_TOKEN
-    ? new Redis({
-        url: env.REDIS_URL,
-        token: env.REDIS_TOKEN,
-      })
-    : null;
+// Check if we have valid Redis configuration (not placeholder values)
+const hasValidRedisConfig = 
+  env.REDIS_URL && 
+  env.REDIS_TOKEN && 
+  env.REDIS_URL !== "placeholder-redis-url" && 
+  env.REDIS_TOKEN !== "placeholder-redis-token" &&
+  env.REDIS_URL.startsWith("https://");
+
+export const redis = hasValidRedisConfig
+  ? new Redis({
+      url: env.REDIS_URL,
+      token: env.REDIS_TOKEN,
+    })
+  : null;
