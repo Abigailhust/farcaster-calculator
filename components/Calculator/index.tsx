@@ -1,14 +1,8 @@
 "use client";
 
-import { useSignIn } from "@/hooks/use-sign-in";
-import Image from "next/image";
 import { useState } from "react";
 
 export default function Calculator() {
-  const { signIn, isLoading, isSignedIn, user } = useSignIn({
-    autoSignIn: true,
-  });
-  
   const [display, setDisplay] = useState("0");
   const [previousValue, setPreviousValue] = useState<number | null>(null);
   const [operation, setOperation] = useState<string | null>(null);
@@ -113,47 +107,9 @@ export default function Calculator() {
     );
   };
 
-  if (!isSignedIn) {
-    return (
-      <div className="bg-white text-black flex min-h-screen flex-col items-center justify-center p-4">
-        <div className="text-center space-y-4 max-w-md">
-          <div className="text-6xl mb-4">🧮</div>
-          <h1 className="text-4xl font-bold">Calculator</h1>
-          <p className="text-lg text-gray-600">
-            Sign in to start calculating
-          </p>
-          <button
-            onClick={signIn}
-            disabled={isLoading}
-            className="px-6 py-3 bg-purple-600 text-white font-semibold rounded-lg shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200"
-          >
-            {isLoading ? "Signing in..." : "Sign in"}
-          </button>
-        </div>
-      </div>
-    );
-  }
-
   return (
     <div className="bg-gradient-to-br from-blue-50 to-purple-50 min-h-screen flex flex-col items-center justify-center p-4">
       <div className="bg-white rounded-2xl shadow-2xl p-6 w-full max-w-sm">
-        {/* User Info */}
-        {user && (
-          <div className="flex items-center space-x-3 mb-6 p-3 bg-gray-50 rounded-lg">
-            <Image
-              src={user.pfp_url}
-              alt="Profile"
-              className="w-10 h-10 rounded-full"
-              width={40}
-              height={40}
-            />
-            <div>
-              <p className="font-semibold text-sm">{user.display_name}</p>
-              <p className="text-xs text-gray-500">@{user.username}</p>
-            </div>
-          </div>
-        )}
-
         {/* Calculator Display */}
         <div className="bg-black text-white p-4 rounded-lg mb-4">
           <div className="text-right text-3xl font-mono overflow-hidden">
