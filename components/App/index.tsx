@@ -2,11 +2,11 @@
 
 import dynamic from "next/dynamic";
 
-const Home = dynamic(() => import("@/components/Home"), {
+const Calculator = dynamic(() => import("@/components/Calculator"), {
   ssr: false,
-  loading: () => <div>Loading...</div>,
+  loading: () => <div>Loading Calculator...</div>,
 });
 
 export default function App() {
-  return <Home />;
+  return <Calculator />;
 }
