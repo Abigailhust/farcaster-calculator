@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@adraffy/ens-normalize@^1.10.1", "@adraffy/ens-normalize@1.10.1":
+"@adraffy/ens-normalize@^1.10.1", "@adraffy/ens-normalize@^1.8.8", "@adraffy/ens-normalize@1.10.1":
   version "1.10.1"
   resolved "https://registry.npmjs.org/@adraffy/ens-normalize/-/ens-normalize-1.10.1.tgz"
   integrity sha512-96Z2IP3mYmF1Xg2cDm8f1gWGf/HUVedQ3FMifV4kG/PQ4yEP51xDtRAEfhVNt5f/uzpNkZHwWQuUcu6D6K+Ekw==
@@ -105,6 +105,11 @@
   version "4.0.1"
   resolved "https://registry.npmjs.org/@ethereumjs/rlp/-/rlp-4.0.1.tgz"
   integrity sha512-tqsQiBQDQdmPWE1xkkBq4rlSW5QZpLOUJ5RJh2/9fug+q9tnUhuZoVLk7s0scUIKTOzEtR72DFBXI4WiZcMpvw==
+
+"@ethereumjs/rlp@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.npmjs.org/@ethereumjs/rlp/-/rlp-5.0.2.tgz"
+  integrity sha512-DziebCdg4JpGlEqEdGgXmjqcFoJi+JGulUXwEjsZGAscAQ7MyD/7LE/GVCP29vEQxKc7AAwjT3A2ywHp2xfoCA==
 
 "@ethereumjs/tx@^4.1.2", "@ethereumjs/tx@^4.2.0":
   version "4.2.0"
@@ -1163,46 +1168,6 @@
   dependencies:
     glob "10.3.10"
 
-"@next/swc-darwin-arm64@14.1.4":
-  version "14.1.4"
-  resolved "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-14.1.4.tgz"
-  integrity sha512-ubmUkbmW65nIAOmoxT1IROZdmmJMmdYvXIe8211send9ZYJu+SqxSnJM4TrPj9wmL6g9Atvj0S/2cFmMSS99jg==
-
-"@next/swc-darwin-arm64@14.2.6":
-  version "14.2.6"
-  resolved "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-14.2.6.tgz"
-  integrity sha512-BtJZb+hYXGaVJJivpnDoi3JFVn80SHKCiiRUW3kk1SY6UCUy5dWFFSbh+tGi5lHAughzeduMyxbLt3pspvXNSg==
-
-"@next/swc-darwin-x64@14.1.4":
-  version "14.1.4"
-  resolved "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-14.1.4.tgz"
-  integrity sha512-b0Xo1ELj3u7IkZWAKcJPJEhBop117U78l70nfoQGo4xUSvv0PJSTaV4U9xQBLvZlnjsYkc8RwQN1HoH/oQmLlQ==
-
-"@next/swc-darwin-x64@14.2.6":
-  version "14.2.6"
-  resolved "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-14.2.6.tgz"
-  integrity sha512-ZHRbGpH6KHarzm6qEeXKSElSXh8dS2DtDPjQt3IMwY8QVk7GbdDYjvV4NgSnDA9huGpGgnyy3tH8i5yHCqVkiQ==
-
-"@next/swc-linux-arm64-gnu@14.1.4":
-  version "14.1.4"
-  resolved "https://registry.npmjs.org/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-14.1.4.tgz"
-  integrity sha512-457G0hcLrdYA/u1O2XkRMsDKId5VKe3uKPvrKVOyuARa6nXrdhJOOYU9hkKKyQTMru1B8qEP78IAhf/1XnVqKA==
-
-"@next/swc-linux-arm64-gnu@14.2.6":
-  version "14.2.6"
-  resolved "https://registry.npmjs.org/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-14.2.6.tgz"
-  integrity sha512-O4HqUEe3ZvKshXHcDUXn1OybN4cSZg7ZdwHJMGCXSUEVUqGTJVsOh17smqilIjooP/sIJksgl+1kcf2IWMZWHg==
-
-"@next/swc-linux-arm64-musl@14.1.4":
-  version "14.1.4"
-  resolved "https://registry.npmjs.org/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-14.1.4.tgz"
-  integrity sha512-l/kMG+z6MB+fKA9KdtyprkTQ1ihlJcBh66cf0HvqGP+rXBbOXX0dpJatjZbHeunvEHoBBS69GYQG5ry78JMy3g==
-
-"@next/swc-linux-arm64-musl@14.2.6":
-  version "14.2.6"
-  resolved "https://registry.npmjs.org/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-14.2.6.tgz"
-  integrity sha512-xUcdhr2hfalG8RDDGSFxQ75yOG894UlmFS4K2M0jLrUhauRBGOtUOxoDVwiIIuZQwZ3Y5hDsazNjdYGB0cQ9yQ==
-
 "@next/swc-linux-x64-gnu@14.1.4":
   version "14.1.4"
   resolved "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-14.1.4.tgz"
@@ -1222,36 +1187,6 @@
   version "14.2.6"
   resolved "https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-14.2.6.tgz"
   integrity sha512-d4QXfJmt5pGJ7cG8qwxKSBnO5AXuKAFYxV7qyDRHnUNvY/dgDh+oX292gATpB2AAHgjdHd5ks1wXxIEj6muLUQ==
-
-"@next/swc-win32-arm64-msvc@14.1.4":
-  version "14.1.4"
-  resolved "https://registry.npmjs.org/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-14.1.4.tgz"
-  integrity sha512-xzxF4ErcumXjO2Pvg/wVGrtr9QQJLk3IyQX1ddAC/fi6/5jZCZ9xpuL9Tzc4KPWMFq8GGWFVDMshZOdHGdkvag==
-
-"@next/swc-win32-arm64-msvc@14.2.6":
-  version "14.2.6"
-  resolved "https://registry.npmjs.org/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-14.2.6.tgz"
-  integrity sha512-AlgIhk4/G+PzOG1qdF1b05uKTMsuRatFlFzAi5G8RZ9h67CVSSuZSbqGHbJDlcV1tZPxq/d4G0q6qcHDKWf4aQ==
-
-"@next/swc-win32-ia32-msvc@14.1.4":
-  version "14.1.4"
-  resolved "https://registry.npmjs.org/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-14.1.4.tgz"
-  integrity sha512-WZiz8OdbkpRw6/IU/lredZWKKZopUMhcI2F+XiMAcPja0uZYdMTZQRoQ0WZcvinn9xZAidimE7tN9W5v9Yyfyw==
-
-"@next/swc-win32-ia32-msvc@14.2.6":
-  version "14.2.6"
-  resolved "https://registry.npmjs.org/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-14.2.6.tgz"
-  integrity sha512-hNukAxq7hu4o5/UjPp5jqoBEtrpCbOmnUqZSKNJG8GrUVzfq0ucdhQFVrHcLRMvQcwqqDh1a5AJN9ORnNDpgBQ==
-
-"@next/swc-win32-x64-msvc@14.1.4":
-  version "14.1.4"
-  resolved "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-14.1.4.tgz"
-  integrity sha512-4Rto21sPfw555sZ/XNLqfxDUNeLhNYGO2dlPqsnuCg8N8a2a9u1ltqBOPQ4vj1Gf7eJC0W2hHG2eYUHuiXgY2w==
-
-"@next/swc-win32-x64-msvc@14.2.6":
-  version "14.2.6"
-  resolved "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-14.2.6.tgz"
-  integrity sha512-NANtw+ead1rSDK1jxmzq3TYkl03UNK2KHqUYf1nIhNci6NkeqBD4s1njSzYGIlSHxCK+wSaL8RXZm4v+NF/pMw==
 
 "@noble/ciphers@^1.0.0":
   version "1.2.1"
@@ -1697,6 +1632,13 @@
   dependencies:
     "@tanstack/query-core" "5.64.2"
 
+"@types/bn.js@*":
+  version "5.2.0"
+  resolved "https://registry.npmjs.org/@types/bn.js/-/bn.js-5.2.0.tgz"
+  integrity sha512-DLbJ1BPqxvQhIGbeu8VbUC1DiAiahHtAYvA0ZEAa4P31F7IaArc8z3C3BRQdWX4mtLQuABG4yzp76ZrS02Ui1Q==
+  dependencies:
+    "@types/node" "*"
+
 "@types/debug@^4.1.7":
   version "4.1.12"
   resolved "https://registry.npmjs.org/@types/debug/-/debug-4.1.12.tgz"
@@ -1714,7 +1656,7 @@
   resolved "https://registry.npmjs.org/@types/ms/-/ms-2.1.0.tgz"
   integrity sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==
 
-"@types/node@^20.19.9", "@types/node@>=13.7.0":
+"@types/node@*", "@types/node@^20.19.9", "@types/node@>=13.7.0":
   version "20.19.9"
   resolved "https://registry.npmjs.org/@types/node/-/node-20.19.9.tgz"
   integrity sha512-cuVNgarYWZqxRJDQHEB58GEONhOK79QVR/qYx4S7kcUObQvUwvFnYxJuuHUKm2aieN9X3yZB4LZsuYNU1Qphsw==
@@ -1750,6 +1692,26 @@
   version "2.0.7"
   resolved "https://registry.npmjs.org/@types/trusted-types/-/trusted-types-2.0.7.tgz"
   integrity sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==
+
+"@types/underscore@*":
+  version "1.13.0"
+  resolved "https://registry.npmjs.org/@types/underscore/-/underscore-1.13.0.tgz"
+  integrity sha512-L6LBgy1f0EFQZ+7uSA57+n2g/s4Qs5r06Vwrwn0/nuK1de+adz00NWaztRQ30aEqw5qOaWbPI8u2cGQ52lj6VA==
+
+"@types/web3@^1.0.20":
+  version "1.0.20"
+  resolved "https://registry.npmjs.org/@types/web3/-/web3-1.0.20.tgz"
+  integrity sha512-KTDlFuYjzCUlBDGt35Ir5QRtyV9klF84MMKUsEJK10sTWga/71V+8VYLT7yysjuBjaOx2uFYtIWNGoz3yrNDlg==
+  dependencies:
+    "@types/bn.js" "*"
+    "@types/underscore" "*"
+
+"@types/ws@8.5.3":
+  version "8.5.3"
+  resolved "https://registry.npmjs.org/@types/ws/-/ws-8.5.3.tgz"
+  integrity sha512-6YOoWjruKj1uLf3INHH7D3qTXwFfEsg1kf3c0uDdSBJwfa/llkwIjrAGV7j7mVgGNbzTQ3HiHKKDXl6bJPD97w==
+  dependencies:
+    "@types/node" "*"
 
 "@typescript-eslint/parser@^5.4.2 || ^6.0.0 || 7.0.0 - 7.2.0":
   version "7.2.0"
@@ -2302,6 +2264,11 @@ abitype@^1.0.6, abitype@1.0.8:
   resolved "https://registry.npmjs.org/abitype/-/abitype-1.0.8.tgz"
   integrity sha512-ZeiI6h3GnW06uYDLx0etQtX/p8E24UaHHBj57RSjK7YBFe7iuVn07EDpOeP451D06sF27VOz9JJPlIKJmXgkEg==
 
+abitype@0.7.1:
+  version "0.7.1"
+  resolved "https://registry.npmjs.org/abitype/-/abitype-0.7.1.tgz"
+  integrity sha512-VBkRHTDZf9Myaek/dO3yMmOzB/y2s3Zo6nVU7yaw1G+TvCHAjwaJzNGN9yo4K5D8bU/VZXKP1EJpRhFr862PlQ==
+
 abitype@1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/abitype/-/abitype-1.0.0.tgz"
@@ -2825,7 +2792,7 @@ core-util-is@~1.0.0:
   resolved "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz"
   integrity sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==
 
-crc-32@^1.2.0:
+crc-32@^1.2.0, crc-32@^1.2.2:
   version "1.2.2"
   resolved "https://registry.npmjs.org/crc-32/-/crc-32-1.2.2.tgz"
   integrity sha512-ROmzCKrTnOwybPcJApAA6WBWij23HVfGVNKqqrZpuyZOHqK2CwHSvpGuyt/UNNvaIjEd8X5IFGp4Mh+Ie1IHJQ==
@@ -3867,11 +3834,6 @@ fs.realpath@^1.0.0:
   resolved "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   integrity sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==
 
-fsevents@~2.3.2:
-  version "2.3.3"
-  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
-  integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
-
 function-bind@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz"
@@ -4457,6 +4419,11 @@ isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
+
+isomorphic-ws@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/isomorphic-ws/-/isomorphic-ws-5.0.0.tgz"
+  integrity sha512-muId7Zzn9ywDsyXgTIafTry2sV3nySZeUDe6YedVd1Hvuuep5AsIlqK+XefWpYTyJG5e503F2xIuT2lcU6rCSw==
 
 isows@1.0.3:
   version "1.0.3"
@@ -6452,7 +6419,7 @@ typedarray.prototype.slice@^1.0.5:
     typed-array-buffer "^1.0.3"
     typed-array-byte-offset "^1.0.4"
 
-typescript@^5, typescript@>=3.3.1, typescript@>=4.2.0, typescript@>=5.0.0, typescript@>=5.0.4, typescript@>=5.4.0:
+typescript@^5, typescript@>=3.3.1, typescript@>=4.2.0, typescript@>=4.9.4, typescript@>=5.0.0, typescript@>=5.0.4, typescript@>=5.4.0:
   version "5.7.3"
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.7.3.tgz"
   integrity sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==
@@ -6570,7 +6537,7 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   resolved "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-util@^0.12.4:
+util@^0.12.4, util@^0.12.5:
   version "0.12.5"
   resolved "https://registry.npmjs.org/util/-/util-0.12.5.tgz"
   integrity sha512-kZf/K6hEIrWHI6XqOFUiiMa+79wE/D8Q+NCNAWclkyg3b4d2k7s0QGepNjiABc+aR3N1PAyHL7p6UcLY6LmrnA==
@@ -6645,6 +6612,233 @@ web-vitals@^3.0.4:
   version "3.5.2"
   resolved "https://registry.npmjs.org/web-vitals/-/web-vitals-3.5.2.tgz"
   integrity sha512-c0rhqNcHXRkY/ogGDJQxZ9Im9D19hDihbzSQJrsioex+KnFgmMzBiy57Z1EjkhX/+OjyBpclDCzz2ITtjokFmg==
+
+web3-core@^4.4.0, web3-core@^4.5.0, web3-core@^4.6.0, web3-core@^4.7.1:
+  version "4.7.1"
+  resolved "https://registry.npmjs.org/web3-core/-/web3-core-4.7.1.tgz"
+  integrity sha512-9KSeASCb/y6BG7rwhgtYC4CvYY66JfkmGNEYb7q1xgjt9BWfkf09MJPaRyoyT5trdOxYDHkT9tDlypvQWaU8UQ==
+  dependencies:
+    web3-errors "^1.3.1"
+    web3-eth-accounts "^4.3.1"
+    web3-eth-iban "^4.0.7"
+    web3-providers-http "^4.2.0"
+    web3-providers-ws "^4.0.8"
+    web3-types "^1.10.0"
+    web3-utils "^4.3.3"
+    web3-validator "^2.0.6"
+  optionalDependencies:
+    web3-providers-ipc "^4.0.7"
+
+web3-errors@^1.1.3, web3-errors@^1.2.0, web3-errors@^1.3.0, web3-errors@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.npmjs.org/web3-errors/-/web3-errors-1.3.1.tgz"
+  integrity sha512-w3NMJujH+ZSW4ltIZZKtdbkbyQEvBzyp3JRn59Ckli0Nz4VMsVq8aF1bLWM7A2kuQ+yVEm3ySeNU+7mSRwx7RQ==
+  dependencies:
+    web3-types "^1.10.0"
+
+web3-eth-abi@^4.4.1:
+  version "4.4.1"
+  resolved "https://registry.npmjs.org/web3-eth-abi/-/web3-eth-abi-4.4.1.tgz"
+  integrity sha512-60ecEkF6kQ9zAfbTY04Nc9q4eEYM0++BySpGi8wZ2PD1tw/c0SDvsKhV6IKURxLJhsDlb08dATc3iD6IbtWJmg==
+  dependencies:
+    abitype "0.7.1"
+    web3-errors "^1.3.1"
+    web3-types "^1.10.0"
+    web3-utils "^4.3.3"
+    web3-validator "^2.0.6"
+
+web3-eth-accounts@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.npmjs.org/web3-eth-accounts/-/web3-eth-accounts-4.3.1.tgz"
+  integrity sha512-rTXf+H9OKze6lxi7WMMOF1/2cZvJb2AOnbNQxPhBDssKOllAMzLhg1FbZ4Mf3lWecWfN6luWgRhaeSqO1l+IBQ==
+  dependencies:
+    "@ethereumjs/rlp" "^4.0.1"
+    crc-32 "^1.2.2"
+    ethereum-cryptography "^2.0.0"
+    web3-errors "^1.3.1"
+    web3-types "^1.10.0"
+    web3-utils "^4.3.3"
+    web3-validator "^2.0.6"
+
+web3-eth-contract@^4.5.0, web3-eth-contract@^4.7.2:
+  version "4.7.2"
+  resolved "https://registry.npmjs.org/web3-eth-contract/-/web3-eth-contract-4.7.2.tgz"
+  integrity sha512-3ETqs2pMNPEAc7BVY/C3voOhTUeJdkf2aM3X1v+edbngJLHAxbvxKpOqrcO0cjXzC4uc2Q8Zpf8n8zT5r0eLnA==
+  dependencies:
+    "@ethereumjs/rlp" "^5.0.2"
+    web3-core "^4.7.1"
+    web3-errors "^1.3.1"
+    web3-eth "^4.11.1"
+    web3-eth-abi "^4.4.1"
+    web3-types "^1.10.0"
+    web3-utils "^4.3.3"
+    web3-validator "^2.0.6"
+
+web3-eth-ens@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.npmjs.org/web3-eth-ens/-/web3-eth-ens-4.4.0.tgz"
+  integrity sha512-DeyVIS060hNV9g8dnTx92syqvgbvPricE3MerCxe/DquNZT3tD8aVgFfq65GATtpCgDDJffO2bVeHp3XBemnSQ==
+  dependencies:
+    "@adraffy/ens-normalize" "^1.8.8"
+    web3-core "^4.5.0"
+    web3-errors "^1.2.0"
+    web3-eth "^4.8.0"
+    web3-eth-contract "^4.5.0"
+    web3-net "^4.1.0"
+    web3-types "^1.7.0"
+    web3-utils "^4.3.0"
+    web3-validator "^2.0.6"
+
+web3-eth-iban@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.npmjs.org/web3-eth-iban/-/web3-eth-iban-4.0.7.tgz"
+  integrity sha512-8weKLa9KuKRzibC87vNLdkinpUE30gn0IGY027F8doeJdcPUfsa4IlBgNC4k4HLBembBB2CTU0Kr/HAOqMeYVQ==
+  dependencies:
+    web3-errors "^1.1.3"
+    web3-types "^1.3.0"
+    web3-utils "^4.0.7"
+    web3-validator "^2.0.3"
+
+web3-eth-personal@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.npmjs.org/web3-eth-personal/-/web3-eth-personal-4.1.0.tgz"
+  integrity sha512-RFN83uMuvA5cu1zIwwJh9A/bAj0OBxmGN3tgx19OD/9ygeUZbifOL06jgFzN0t+1ekHqm3DXYQM8UfHpXi7yDQ==
+  dependencies:
+    web3-core "^4.6.0"
+    web3-eth "^4.9.0"
+    web3-rpc-methods "^1.3.0"
+    web3-types "^1.8.0"
+    web3-utils "^4.3.1"
+    web3-validator "^2.0.6"
+
+web3-eth@^4.11.1, web3-eth@^4.8.0, web3-eth@^4.9.0:
+  version "4.11.1"
+  resolved "https://registry.npmjs.org/web3-eth/-/web3-eth-4.11.1.tgz"
+  integrity sha512-q9zOkzHnbLv44mwgLjLXuyqszHuUgZWsQayD2i/rus2uk0G7hMn11bE2Q3hOVnJS4ws4VCtUznlMxwKQ+38V2w==
+  dependencies:
+    setimmediate "^1.0.5"
+    web3-core "^4.7.1"
+    web3-errors "^1.3.1"
+    web3-eth-abi "^4.4.1"
+    web3-eth-accounts "^4.3.1"
+    web3-net "^4.1.0"
+    web3-providers-ws "^4.0.8"
+    web3-rpc-methods "^1.3.0"
+    web3-types "^1.10.0"
+    web3-utils "^4.3.3"
+    web3-validator "^2.0.6"
+
+web3-net@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.npmjs.org/web3-net/-/web3-net-4.1.0.tgz"
+  integrity sha512-WWmfvHVIXWEoBDWdgKNYKN8rAy6SgluZ0abyRyXOL3ESr7ym7pKWbfP4fjApIHlYTh8tNqkrdPfM4Dyi6CA0SA==
+  dependencies:
+    web3-core "^4.4.0"
+    web3-rpc-methods "^1.3.0"
+    web3-types "^1.6.0"
+    web3-utils "^4.3.0"
+
+web3-providers-http@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.npmjs.org/web3-providers-http/-/web3-providers-http-4.2.0.tgz"
+  integrity sha512-IPMnDtHB7dVwaB7/mMxAZzyq7d5ezfO1+Vw0bNfAeIi7gaDlJiggp85SdyAfOgov8AMUA/dyiY72kQ0KmjXKvQ==
+  dependencies:
+    cross-fetch "^4.0.0"
+    web3-errors "^1.3.0"
+    web3-types "^1.7.0"
+    web3-utils "^4.3.1"
+
+web3-providers-ipc@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.npmjs.org/web3-providers-ipc/-/web3-providers-ipc-4.0.7.tgz"
+  integrity sha512-YbNqY4zUvIaK2MHr1lQFE53/8t/ejHtJchrWn9zVbFMGXlTsOAbNoIoZWROrg1v+hCBvT2c9z8xt7e/+uz5p1g==
+  dependencies:
+    web3-errors "^1.1.3"
+    web3-types "^1.3.0"
+    web3-utils "^4.0.7"
+
+web3-providers-ws@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.npmjs.org/web3-providers-ws/-/web3-providers-ws-4.0.8.tgz"
+  integrity sha512-goJdgata7v4pyzHRsg9fSegUG4gVnHZSHODhNnn6J93ykHkBI1nz4fjlGpcQLUMi4jAMz6SHl9Ibzs2jj9xqPw==
+  dependencies:
+    "@types/ws" "8.5.3"
+    isomorphic-ws "^5.0.0"
+    web3-errors "^1.2.0"
+    web3-types "^1.7.0"
+    web3-utils "^4.3.1"
+    ws "^8.17.1"
+
+web3-rpc-methods@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.npmjs.org/web3-rpc-methods/-/web3-rpc-methods-1.3.0.tgz"
+  integrity sha512-/CHmzGN+IYgdBOme7PdqzF+FNeMleefzqs0LVOduncSaqsppeOEoskLXb2anSpzmQAP3xZJPaTrkQPWSJMORig==
+  dependencies:
+    web3-core "^4.4.0"
+    web3-types "^1.6.0"
+    web3-validator "^2.0.6"
+
+web3-rpc-providers@^1.0.0-rc.4:
+  version "1.0.0-rc.4"
+  resolved "https://registry.npmjs.org/web3-rpc-providers/-/web3-rpc-providers-1.0.0-rc.4.tgz"
+  integrity sha512-PXosCqHW0EADrYzgmueNHP3Y5jcSmSwH+Dkqvn7EYD0T2jcsdDAIHqk6szBiwIdhumM7gv9Raprsu/s/f7h1fw==
+  dependencies:
+    web3-errors "^1.3.1"
+    web3-providers-http "^4.2.0"
+    web3-providers-ws "^4.0.8"
+    web3-types "^1.10.0"
+    web3-utils "^4.3.3"
+    web3-validator "^2.0.6"
+
+web3-types@^1.10.0, web3-types@^1.3.0, web3-types@^1.6.0, web3-types@^1.7.0, web3-types@^1.8.0:
+  version "1.10.0"
+  resolved "https://registry.npmjs.org/web3-types/-/web3-types-1.10.0.tgz"
+  integrity sha512-0IXoaAFtFc8Yin7cCdQfB9ZmjafrbP6BO0f0KT/khMhXKUpoJ6yShrVhiNpyRBo8QQjuOagsWzwSK2H49I7sbw==
+
+web3-utils@^4.0.7, web3-utils@^4.3.0, web3-utils@^4.3.1, web3-utils@^4.3.3:
+  version "4.3.3"
+  resolved "https://registry.npmjs.org/web3-utils/-/web3-utils-4.3.3.tgz"
+  integrity sha512-kZUeCwaQm+RNc2Bf1V3BYbF29lQQKz28L0y+FA4G0lS8IxtJVGi5SeDTUkpwqqkdHHC7JcapPDnyyzJ1lfWlOw==
+  dependencies:
+    ethereum-cryptography "^2.0.0"
+    eventemitter3 "^5.0.1"
+    web3-errors "^1.3.1"
+    web3-types "^1.10.0"
+    web3-validator "^2.0.6"
+
+web3-validator@^2.0.3, web3-validator@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.npmjs.org/web3-validator/-/web3-validator-2.0.6.tgz"
+  integrity sha512-qn9id0/l1bWmvH4XfnG/JtGKKwut2Vokl6YXP5Kfg424npysmtRLe9DgiNBM9Op7QL/aSiaA0TVXibuIuWcizg==
+  dependencies:
+    ethereum-cryptography "^2.0.0"
+    util "^0.12.5"
+    web3-errors "^1.2.0"
+    web3-types "^1.6.0"
+    zod "^3.21.4"
+
+web3@^4.16.0:
+  version "4.16.0"
+  resolved "https://registry.npmjs.org/web3/-/web3-4.16.0.tgz"
+  integrity sha512-SgoMSBo6EsJ5GFCGar2E/pR2lcR/xmUSuQ61iK6yDqzxmm42aPPxSqZfJz2z/UCR6pk03u77pU8TGV6lgMDdIQ==
+  dependencies:
+    web3-core "^4.7.1"
+    web3-errors "^1.3.1"
+    web3-eth "^4.11.1"
+    web3-eth-abi "^4.4.1"
+    web3-eth-accounts "^4.3.1"
+    web3-eth-contract "^4.7.2"
+    web3-eth-ens "^4.4.0"
+    web3-eth-iban "^4.0.7"
+    web3-eth-personal "^4.1.0"
+    web3-net "^4.1.0"
+    web3-providers-http "^4.2.0"
+    web3-providers-ws "^4.0.8"
+    web3-rpc-methods "^1.3.0"
+    web3-rpc-providers "^1.0.0-rc.4"
+    web3-types "^1.10.0"
+    web3-utils "^4.3.3"
+    web3-validator "^2.0.6"
 
 webextension-polyfill@^0.10.0, "webextension-polyfill@>=0.10.0 <1.0":
   version "0.10.0"
@@ -6784,6 +6978,11 @@ ws@^7.5.1:
   resolved "https://registry.npmjs.org/ws/-/ws-7.5.10.tgz"
   integrity sha512-+dbF1tHwZpXcbOJdVOkzLDxZP1ailvSxM6ZweXTegylPny803bFhA+vqBYw4s31NSAk4S2Qz+AKXK9a4wkdjcQ==
 
+ws@^8.17.1:
+  version "8.18.3"
+  resolved "https://registry.npmjs.org/ws/-/ws-8.18.3.tgz"
+  integrity sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg==
+
 ws@~8.17.1:
   version "8.17.1"
   resolved "https://registry.npmjs.org/ws/-/ws-8.17.1.tgz"
@@ -6877,7 +7076,7 @@ yocto-queue@^0.1.0:
   resolved "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-"zod@^3 >=3.22.0", zod@^3.22.0, zod@^3.22.3, zod@^3.22.4, zod@^3.24.0, zod@^3.24.1:
+"zod@^3 >=3.19.1", "zod@^3 >=3.22.0", zod@^3.21.4, zod@^3.22.0, zod@^3.22.3, zod@^3.22.4, zod@^3.24.0, zod@^3.24.1:
   version "3.24.1"
   resolved "https://registry.npmjs.org/zod/-/zod-3.24.1.tgz"
   integrity sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==
